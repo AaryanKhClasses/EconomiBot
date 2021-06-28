@@ -1,0 +1,14 @@
+{
+	"Embeds": {
+		"prefix": "embed",
+		"body": [
+		    "const embed = new MessageEmbed()",
+			".setColor('${1:GREEN}')",
+			".setAuthor(`${message.author.tag}`, message.author.displayAvatarURL())",
+			".setFooter(config.botname)",
+			".setTimestamp()",
+			".setDescription(`${emojis.yes} string`)",
+		],
+		"description": "Embed code for my bots"
+	}
+}
