@@ -1,13 +1,13 @@
 {
   "name": "EconomiBot",
   "version": "1.0.0",
-  "description": "",
+  "description": "An Economy & Fun Discord Bot!",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["discord.js", "discord-bot", "mongoose", "mongodb", "economybot", "funbot", "aaryankh", "bacclib"],
+  "author": "AaryanKh",
   "license": "ISC",
   "dependencies": {
     "discord-reply": "^0.1.2",

@@ -25,7 +25,7 @@ module.exports = {
         .setTimestamp()
         .setDescription(`Pinging...`)
 
-        message.reply({ embed: embed }).then((resultMessage) => {
+        message.lineReply({ embed: embed }).then((resultMessage) => {
             const ping = resultMessage.createdTimestamp - message.createdTimestamp
             const embed2 = new MessageEmbed()
             .setColor('BLUE')
@@ -42,3 +42,10 @@ module.exports = {
         })
     }
 }
+const embed = new MessageEmbed()
+.setColor('GREEN')
+.setAuthor(`${message.author.tag}`, message.author.displayAvatarURL())
+.setFooter(config.botname)
+.setTimestamp()
+.setDescription(`${emojis.yes} string`)
+message.lineReply(embed)

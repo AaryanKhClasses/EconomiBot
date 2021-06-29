@@ -5,7 +5,7 @@ require('dotenv').config()
 require('discord-reply')
 
 const loadCommands = require('./commands/load-commands.js')
-const economy = require('./utils/economy.js')
+const economy = require('./modules/economy.js')
 const loadEvents = require('./events/load-events.js')
 
 client.on('ready', () => {

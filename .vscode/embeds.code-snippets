@@ -8,6 +8,7 @@
 			".setFooter(config.botname)",
 			".setTimestamp()",
 			".setDescription(`${emojis.yes} string`)",
+			"message.lineReply(embed)"
 		],
 		"description": "Embed code for my bots"
 	}
